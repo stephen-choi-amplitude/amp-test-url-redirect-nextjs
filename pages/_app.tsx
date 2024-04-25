@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <Script
         src="https://cdn.lab.amplitude.com/web/v1/script/a6dd847b9d2f03c816d4f3f8458cdc1d.js"
       />
-      <Component {...pageProps} />;
+      <Component {...pageProps} />
     </>
   );
 }
